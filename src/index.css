@@ -1,0 +1,14 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+ .modal-90w{
+  max-width: 90%;
+  
+} 
