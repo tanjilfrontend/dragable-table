@@ -4,7 +4,9 @@ import Table from 'react-bootstrap/Table';
 import { useState } from 'react';
 import {  modalTableInitialCoumns } from '../constant/InitialColumns';
 import Loader from './Loader';
+
   const TableModal = ({showModal,closeModal,selectedRow,data}) => {
+    
     const [columns, setColumns] = useState(modalTableInitialCoumns);
     const [showColumnDropdown, setShowColumnDropdown] = useState(false);
 
