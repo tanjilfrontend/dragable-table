@@ -6,7 +6,7 @@ import {  modalTableInitialCoumns } from '../constant/InitialColumns';
 import Loader from './Loader';
 
   const TableModal = ({showModal,closeModal,selectedRow,data}) => {
-    
+
     const [columns, setColumns] = useState(modalTableInitialCoumns);
     const [showColumnDropdown, setShowColumnDropdown] = useState(false);
 
@@ -132,8 +132,8 @@ const toggleColumnVisibility = (columnKey) => {
                       onDragOver={handleDragOver}
                       onDrop={(e) => handleDrop(e, col.key)}
                       style={{
-                        color: col.key === '' ? 'red' : 'black',
-                      
+                        minWidth: '200px',
+                        textAlign:'center'
                     }}
                   >
                       {col.label}

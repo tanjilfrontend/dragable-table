@@ -127,6 +127,8 @@ const TableData = ({ data, totalProjectValue, totalProjectCount }) => {
                                 onDrop={(e) => handleDrop(e, col.key)}
                                 style={{
                                     whiteSpace: 'pre-line',
+                                    minWidth: '200px',
+                                    textAlign:'center'
                                 }}
                             >
                                 {col.key === 'no_of_projects_minimum_ideal_18' ||
